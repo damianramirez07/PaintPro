@@ -56,14 +56,24 @@ As a **business owner**, I want to view summary of projects and finances, so I c
 - Dashboard information updates when projects, invoices, or payments change.
 - Only authorized users can access the finance dashbaord.
 
-## Mis-User Stories and Security
+## Mis-User Stories and Security Mitigation
 
-### 1. Unauthorized Access to Business Information
+### 1. Unauthorized Access to Business Info
 As a malicious user, I want to access PaintPro without valid creds, so I can view sensitive customer or payment information.
 
-**Security Mitigation**
+**Mitigation Criteria**
 - Require authentication before acessing protected pages.
 - Store passwords securely using Django's built-in password hashing.
 - Implements role-based access control (RBAC).
 - Restrict financial info to authorized users.
 - Return access denied message when attempting to access unauthorized pages.
+
+### 2. Unauthorized Modifications of Job Info
+As a malicious user, I want to modify job details, invoices, and payment so I can manipulate business records and attempt to disrupt business operations.
+
+**Mitigation Criteria**
+- Authorized users can modify job details, invoices, and payment info.
+- Role-based access control (RBAC) will be implemeted.
+- Unauthorized modificication updates are denied.
+- Changes to business info is tracked and logged.
+
