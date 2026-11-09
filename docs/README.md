@@ -45,3 +45,25 @@ As a **business owner**, I want to create and manage invoices for projects, so I
 - The owner can record payments received from customers.
 - The system calculates remaining balance on invoice.
 - Authorized users can create, modify, or delete invoices.
+
+### 5. Owner Dashboard
+As a **business owner**, I want to view summary of projects and finances, so I can monitor business performance from one centralized location.
+
+**Acceptance Criteria**
+- The dashboard displays total numebr of active and completed projects.
+- The owner can view total expected revenue from projects.
+- The dashbaord displays payments received and outstanding invoice balances.
+- Dashboard information updates when projects, invoices, or payments change.
+- Only authorized users can access the finance dashbaord.
+
+## Mis-User Stories and Security
+
+### 1. Unauthorized Access to Business Information
+As a malicious user, I want to access PaintPro without valid creds, so I can view sensitive customer or payment information.
+
+**Security Mitigation**
+- Require authentication before acessing protected pages.
+- Store passwords securely using Django's built-in password hashing.
+- Implements role-based access control (RBAC).
+- Restrict financial info to authorized users.
+- Return access denied message when attempting to access unauthorized pages.
