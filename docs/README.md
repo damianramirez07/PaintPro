@@ -77,3 +77,6 @@ As a malicious user, I want to modify job details, invoices, and payment so I ca
 - Unauthorized modificication updates are denied.
 - Changes to business info is tracked and logged.
 
+## UI Mockup
+
+![PaintPro UI Mockup](images/Paint%20Pro%20Mockup.drawio.png)
