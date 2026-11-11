@@ -79,4 +79,20 @@ As a malicious user, I want to modify job details, invoices, and payment so I ca
 
 ## UI Mockup
 
-![PaintPro UI Mockup](images/Paint%20Pro%20Mockup.drawio.png)
+![PaintPro UI Mockup](<images/Paint Pro Mockup.png>)
+
+
+## C4 Diagrams
+
+### Level 1 Context Diagram
+
+The diagram show the flow of how the Admin, Business Owner, and Crew Member interact with the PaintPro systems.
+
+![PaintPro Level 1](<images/PaintPro C4 Level 1.png>)
+
+### Level 2 Container Diagram
+
+![PaintPro Level 2](<images/PaintPro C4 Level 2.png>)
+
+
+
