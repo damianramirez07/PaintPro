@@ -85,20 +85,18 @@ As a malicious user, I want to modify job details, invoices, and payment so I ca
 ## C4 Diagrams
 
 ### Level 1 Context Diagram
-
 The diagram show how the Admin, Business Owner, and Crew Member interact with PaintPro.
 
 ![PaintPro Level 1](<images/PaintPro C4 Level 1.png>)
 
 ### Level 2 Container Diagram
+The diagram shows how the web browser, Django app, and database communicate with each other.
 
 ![PaintPro Level 2](<images/PaintPro C4 Level 2.png>)
 
-The diagram shows how the web browser, Django app, and database communicate with each other.
-
-
 ### Level 3 Component Diagram
+The diagram shows hwo the main components of PaintPro work together to manage users, projects, crews, and invoices.
 
 ![PaintPro Level 3](<images/PaintPro C4 Level 3.png>)
 
-The diagram shows hwo the main components of PaintPro work together to manage users, projects, crews, and invoices.
+
