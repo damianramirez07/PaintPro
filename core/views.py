@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 # Main Dashboard
 def dashboard(request):
-    return HttpResponse("Welcome to PaintPro - Painting Project Management") 
+    return render(request, 'core/dashboard.html')
+
