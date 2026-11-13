@@ -34,3 +34,4 @@ http://127.0.0.1:8000/
 Note: Ctr + C to stop server 
 # License
 
+PaintPro is licensed under MIT License. Check out the LICENSE file for more details.
